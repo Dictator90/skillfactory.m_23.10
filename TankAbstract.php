@@ -2,10 +2,7 @@
 
 abstract class TankAbstract extends TransportAbstract
 {
-    public function shot()
-    {
-        //todo: shot function
-    }
+    abstract public function shot():bool;
 
     public function getOuterColor(): string
     {

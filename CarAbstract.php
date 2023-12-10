@@ -2,6 +2,8 @@
 
 abstract class CarAbstract extends TransportAbstract
 {
+    abstract public function activateN2O(): bool;
+
     public function beep(): ?string
     {
         return 'beeep';
